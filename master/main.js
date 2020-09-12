@@ -1,5 +1,4 @@
 function creater(){
-
   // Добавляем только что созданый элемент в дерево DOM
   var elem = document.createElement("div");
   elem.id = 'main';
