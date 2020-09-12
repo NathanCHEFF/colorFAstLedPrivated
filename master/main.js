@@ -11,4 +11,4 @@ function addNewElement(name){
   return document.createElement(name);
 }
 
-creater();
+document.body.onload = 'creater';
