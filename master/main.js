@@ -9,8 +9,8 @@ function main(){
 }
 
 function changeColor(value){
-  hexToHSL(value)
-  
+  alert(hexToHSL(value))
+
 }
 
 function hexToHSL(H) {
