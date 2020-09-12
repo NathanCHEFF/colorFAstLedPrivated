@@ -10,7 +10,6 @@ function main(){
 
 function changeColor(value){
   alert(hexToHSL(value))
-
 }
 
 function hexToHSL(H) {
