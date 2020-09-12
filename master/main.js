@@ -4,7 +4,7 @@ function craeter(){
   var elem = document.createElement("div");
   elem.id = 'main';
 
-  
+
   document.body.appendChild(elem);
 }
 
