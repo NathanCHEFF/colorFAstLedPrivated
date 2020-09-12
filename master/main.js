@@ -11,3 +11,5 @@ function craeter(){
 function addNewElement(name){
   return document.createElement(name);
 }
+
+creater();
