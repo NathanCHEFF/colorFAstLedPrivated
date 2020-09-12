@@ -8,3 +8,4 @@ function main(){
     alert(this.value);
   }
 }
+/**/
