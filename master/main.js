@@ -41,5 +41,3 @@ function hexToHSL1(hex) {
   var str = "h="+h+"s"+s+"l"+l;
   return HSL;
 }
-
-/**/
