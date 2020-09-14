@@ -55,6 +55,7 @@ function hexToHSL(H) {
   //l = +(l * 100).toFixed(1);
 
   return "hsl(" + h + "," + s + " ," + l + ")";
+  
 }
 
 /**/
