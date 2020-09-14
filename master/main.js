@@ -39,5 +39,5 @@ function hexToHSL1(hex) {
   HSL['l']=l;
 
   var str = "h="+h+"s"+s+"l"+l;
-  return HSL;
+  return str;
 }
