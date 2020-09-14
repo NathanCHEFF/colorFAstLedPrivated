@@ -51,10 +51,10 @@ function hexToHSL(H) {
 
   l = (cmax + cmin) / 2;
   s = delta == 0 ? 0 : delta / (1 - Math.abs(2 * l - 1));
-  s = +(s * 100).toFixed(1);
-  l = +(l * 100).toFixed(1);
+  //s = +(s * 100).toFixed(1);
+  //l = +(l * 100).toFixed(1);
 
-  return "hsl(" + h + "," + s + "%," + l + "%)";
+  return "hsl(" + h + "," + s + " ," + l + ")";
 }
 
 /**/
