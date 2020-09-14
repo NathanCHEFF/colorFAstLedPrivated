@@ -4,6 +4,7 @@ window.onload = function(){
 
 function main(){
   document.getElementById("selectColor").onchange = function() {
+    alert(this.value)
     changeColor(this.value);
   }
 }
@@ -57,5 +58,7 @@ function hexToHSL(H) {
   return "hsl(" + h + "," + s + " ," + l + ")";
   
 }
+
+
 
 /**/
