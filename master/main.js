@@ -3,7 +3,7 @@ window.onload = function(){
 }
 
 function main(){
-  if (!document.getElementById)
+  /*if (!document.getElementById)*/
    document.write('<link rel="stylesheet" type="text/css" href="style.css">');
 
   document.getElementById("selectColor").onchange = function() {
