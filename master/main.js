@@ -12,7 +12,6 @@ function main(){
   }
 }
 
-
 function changeColor(value){
   alert(hexToHSL1(value))
 }
