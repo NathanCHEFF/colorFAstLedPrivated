@@ -4,7 +4,6 @@ window.onload = function(){
 
 function main(){
   /*if (!document.getElementById)*/
-
   document.getElementById("selectColor").onchange = function() {
     alert(this.value);
     changeColor(this.value);
