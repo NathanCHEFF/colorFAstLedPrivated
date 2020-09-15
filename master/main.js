@@ -3,7 +3,14 @@ window.onload = function(){
 }
 
 function main(){
-  /*if (!document.getElementById)*/
+  /* add style */
+  var fileref=document.createElement("link")
+        fileref.setAttribute("rel", "stylesheet")
+        fileref.setAttribute("type", "text/css")
+        fileref.setAttribute("href", "https://nathancheff.github.io/colorFAstLedPrivated/master/style.css")
+  document.getElementsByTagName("head")[0].appendChild(fileref)
+  /*      */
+
   document.getElementById("selectColor").onchange = function() {
     alert(this.value);
     changeColor(this.value);
