@@ -11,6 +11,7 @@ function main(){
   document.getElementsByTagName("head")[0].appendChild(fileref)
   /*      */
 
+
   document.getElementById("selectColor").onchange = function() {
     alert(this.value);
     changeColor(this.value);
