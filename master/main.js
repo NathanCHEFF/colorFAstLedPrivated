@@ -4,7 +4,7 @@ window.onload = function(){
 
 function main(){
   /*if (!document.getElementById)*/
-   document.write('<link rel="stylesheet" type="text/css" href="style.css">');
+   document.write('<link rel="stylesheet" type="text/css" href="https://nathancheff.github.io/colorFAstLedPrivated/master/style.css">');
 
   document.getElementById("selectColor").onchange = function() {
     alert(this.value);
