@@ -1,13 +1,19 @@
+// include me all https://nathancheff.github.io/colorFAstLedPrivated/master/main.js
 window.onload = function(){
   main();
 }
 
 function main(){
+	// vizualation --
+	tableCreate()
   /* add style */
   var fileref=document.createElement("link")
         fileref.setAttribute("rel", "stylesheet")
         fileref.setAttribute("type", "text/css")
-        fileref.setAttribute("href", "https://nathancheff.github.io/colorFAstLedPrivated/master/style.css")
+        //fileref.setAttribute("href", "https://nathancheff.github.io/colorFAstLedPrivated/master/style.css")
+        fileref.setAttribute("href", "style.css")
+
+
   document.getElementsByTagName("head")[0].appendChild(fileref)
   /*      */
 
@@ -18,8 +24,14 @@ function main(){
   }
 }
 
+function tableCreate() {
+
+
+}
+
 function changeColor(value){
-  alert(hexToHSL1(value))
+	//document.getElementsByTagName("body")[0].style.backgroundColor = value;
+  hexToHSL1(value)
 }
 
 function hexToHSL1(hex) {
@@ -49,4 +61,13 @@ function hexToHSL1(hex) {
 
   var str = "h="+h+"s"+s+"l"+l;
   return str;
+}
+
+
+function sender(method,body){
+	theUrl = "192.168.0.100/send?"+method+"="+body
+    var xmlHttp = new XMLHttpRequest();
+    xmlHttp.open( "GET", theUrl, true ); // false for synchronous request
+    xmlHttp.send( null );
+    console.log(xmlHttp.responseText);
 }

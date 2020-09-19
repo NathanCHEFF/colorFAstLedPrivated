@@ -4,10 +4,33 @@ body{
   width:100%;
   height:100%;
   position: absolute;
+  text-align:center;
+}
+
+#caption_name{
+	font-size:130%;
+	color:dodgerblue;
 }
 
 #selectColor{
-  width:50%;
-  height:50%;
+  width:100%;
+  height:100%;
 
+}
+
+table{
+width: 100%;
+height:100%;
+border-collapse:collapse;
+border-spacing:0
+}
+table, td, th {
+border: 1px solid #595959;
+}
+td, th {
+	width: 33.3%;
+	height: 33.3%;
+}
+th {
+	background-color: #7accee;
 }
